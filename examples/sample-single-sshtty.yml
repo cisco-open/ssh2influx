@@ -1,0 +1,64 @@
+---
+# SSH2Influx work definition file based on YAML 1.1 spec
+# https://yaml.org/spec/1.1/
+# Define the hosts to be polled under an [inventory][hosts] branch.
+# Hosts can have specific commands with a subordinate commands list;
+# [inventory][groupcommands] will be used for all entries
+
+
+# Example of inventory with a host-specific set of commands and
+# one host that only has globalcommands
+# [note: both get global commands]
+#
+# inventory:
+#  hosts:
+#    - host: device-1
+#      commands:
+#        - cmd: show ver
+#          parsespec: 1001
+#        - cmd: show clock
+#          parsespec: 1002
+#    - host: device-2
+
+inventory:
+  credential_set: DefaultCredentials
+  hosts:
+    - host: sandbox-iosxe-latest-1
+    - host: sandbox-iosxe-recomm-1
+    - host: davisnet-cat3560cg
+
+  groupcommands:
+    # Note: using a quoted string here since I'm inserting a trailing space
+    - cmd: "show proc cpu | include SSH Process"
+      parsespec: 101
+
+parsespecs:
+  - parsespec: 101
+    measurement: terminal-tty
+    matchtype: multiple
+    regex: >-
+      (\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+([\d\.]+)%\s+([\d\.]+)%\s+([\d\.]+)%\s+(\d+)\sSSH Process
+    match1: pid
+    match1keytype: field
+    match1valuetype: integer
+    match2: runtime
+    match2keytype: field
+    match2valuetype: integer
+    match3: invoked
+    match3keytype: field
+    match3valuetype: integer
+    match4: uSec
+    match4keytype: field
+    match4valuetype: integer
+    match5: Percent5Sec
+    match5keytype: field
+    match5valuetype: decimal
+    match6: Percent1Min
+    match6keytype: field
+    match6valuetype: decimal
+    match7: Percent5Min
+    match7keytype: field
+    match7valuetype: decimal
+    match8: tty
+    match8keytype: tag
+    match8valuetype: integer
