@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jasoncdavis/SSH2Influx">
+  <a href="https://github.com/cisco-open/SSH2Influx">
     <img src="images/logo-SSH2Influx.png" alt="Logo" width="320" height="160">
   </a>
 
@@ -20,9 +20,9 @@
   <p align="center">
     Convert CLI-based data from SSH-accessible endpoints into InfluxDB measurements for graphing and dashboards!
     <br />
-    <a href="https://github.com/jasoncdavis/SSH2Influx/issues">Report Bug</a>
+    <a href="https://github.com/cisco-open/SSH2Influx/issues">Report Bug</a>
     ·
-    <a href="https://github.com/jasoncdavis/SSH2Influx/issues">Request Feature</a>
+    <a href="https://github.com/cisco-open/SSH2Influx/issues">Request Feature</a>
   </p>
 </div>
 
@@ -62,7 +62,7 @@
 Have you ever needed to periodically extract data from a device using SSH, then put it into InfluxDB to create beautiful Grafana dashboards?
 
 <div align="center">
-  <a href="https://github.com/jasoncdavis/SSH2Influx">
+  <a href="https://github.com/cisco-open/SSH2Influx">
     <img src="images/HowToGetThere.png" alt="workflow" width="455" height="256">
   </a>
 </div>
@@ -125,7 +125,7 @@ We need a Python 3.7+ environment.  A virtual environment is also suggested.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jasoncdavis/SSH2Influx.git
+   git clone https://github.com/cisco-open/SSH2Influx.git
    ```
 2. Create a Python virtual environment (venv)
    ```sh
@@ -327,7 +327,7 @@ Use CONTROL-C to break the execution, if you wish to stop the periodic polling.
 - [x] Enhanced Threading for larger environments (added in version 8 2023/08/15)
 - [ ] Enhanced error handling
 
-See the [open issues](https://github.com/jasoncdavis/SSH2Influx/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/cisco-open/SSH2Influx/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -361,7 +361,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the Cisco Sample Code License, Version 1.1 License. See [LICENSE.md](./LICENSE.md) for more information.
+Distributed under the Apache License, Version 2.0 License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -372,7 +372,7 @@ Distributed under the Cisco Sample Code License, Version 1.1 License. See [LICEN
 
 [@SNMPguy](https://twitter.com/SNMPguy) - jadavis@cisco.com
 
-[https://github.com/jasoncdavis/SSH2Influx](https://github.com/jasoncdavis/SSH2Influx)
+[https://github.com/cisco-open/SSH2Influx](https://github.com/cisco-open/SSH2Influx)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -392,13 +392,13 @@ Distributed under the Cisco Sample Code License, Version 1.1 License. See [LICEN
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/jasoncdavis/SSH2Influx.svg?style=for-the-badge
-[contributors-url]: https://github.com/jasoncdavis/SSH2Influx/graphs/contributors
+[contributors-url]: https://github.com/cisco-open/SSH2Influx/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/jasoncdavis/SSH2Influx.svg?style=for-the-badge
-[forks-url]: https://github.com/jasoncdavis/SSH2Influx/network/members
+[forks-url]: https://github.com/cisco-open/SSH2Influx/network/members
 [stars-shield]: https://img.shields.io/github/stars/jasoncdavis/SSH2Influx.svg?style=for-the-badge
-[stars-url]: https://github.com/jasoncdavis/SSH2Influx/stargazers
+[stars-url]: https://github.com/cisco-open/SSH2Influx/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jasoncdavis/SSH2Influx.svg?style=for-the-badge
-[issues-url]: https://github.com/jasoncdavis/SSH2Influx/issues
+[issues-url]: https://github.com/cisco-open/SSH2Influx/issues
 [license-shield]: https://img.shields.io/badge/License-Cisco%20Sample%20Code%20License%2C%20Version%201.1-lime
 [license-url]: https://developer.cisco.com/site/license/cisco-sample-code-license
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
