@@ -3,9 +3,10 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Cisco Sample Code License, Version 1.1][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
+[![Apache License, Version 2.0][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+![X][twitter-url]
 
 
 <!-- PROJECT LOGO -->
@@ -26,7 +27,7 @@
   </p>
 </div>
 
-[![SSH2Influx Background and Demo](https://i9.ytimg.com/vi_webp/o_J-bQHChCQ/mqdefault.webp?v=64b5a095&sqp=CJjs7qYG&rs=AOn4CLBzt5rd7wd5j6AJ7JIuKYJF9rQQPQ)](https://www.youtube.com/watch?v=zJ7aRuyGHPM "SSH2Influx - Background and Demo")
+[![SSH2Influx Background and Demo](https://i9.ytimg.com/vi_webp/o_J-bQHChCQ/mqdefault.webp?v=64b5a095&sqp=COyl-6wG&rs=AOn4CLBnxM4y65BPXbn35yxTIFlRTh0xvA)](https://www.youtube.com/watch?v=zJ7aRuyGHPM "SSH2Influx - Background and Demo")
 
 
 <!-- TABLE OF CONTENTS -->
@@ -82,7 +83,7 @@ This SSH2Influx project has been used for the last year at the CiscoLive NOC to 
 
 A sample of a CiscoLive NOC dashboard created with this project.
 
-[![NOC Dashboard Screen Shot][product-screenshot]]
+![NOC Dashboard Screen Shot][product-screenshot]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -399,8 +400,8 @@ Distributed under the Apache License, Version 2.0 License. See [LICENSE](./LICEN
 [stars-url]: https://github.com/cisco-open/SSH2Influx/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jasoncdavis/SSH2Influx.svg?style=for-the-badge
 [issues-url]: https://github.com/cisco-open/SSH2Influx/issues
-[license-shield]: https://img.shields.io/badge/License-Cisco%20Sample%20Code%20License%2C%20Version%201.1-lime
-[license-url]: https://developer.cisco.com/site/license/cisco-sample-code-license
+[license-shield]: https://img.shields.io/pypi/l/giteo
+[license-url]: http://www.apache.org/licenses/LICENSE-2.0
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jasoncdavis
 [product-screenshot]: images/screenshot.jpg
@@ -409,3 +410,5 @@ Distributed under the Apache License, Version 2.0 License. See [LICENSE](./LICEN
 [Python-url]: https://python.org/
 [influxdb.org]: https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white
 [Influx-url]: https://www.influxdata.com/products/influxdb-overview/
+[twitter-shield]: https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2FSNMPguy
+[twitter-url]: https://img.shields.io/twitter/follow/snmpguy?label=Follow&style=social
